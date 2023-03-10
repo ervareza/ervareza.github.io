@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XStream</title>
+  <link rel="icon" href="img/favicon/favicon.png">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="min-vh-100 d-flex flex-column">
+
+
+  <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+    <div class="container ">
+      <a class="navbar-brand" href="#">
+        <img src="img/logo/xstream.png" style="width: 130px;" alt="">
+        <img src="img/logo/winet.png" style="width: 70px;" alt="">
+      </a>
+      <button class="navbar-toggler pt-2 pb-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation"
+        style="--bs-navbar-toggler-focus-width: 1px;">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link " href="index.html">Laman</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="voucher.html">Voucher</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="internet.html">Internet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="iklan.html">Iklan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ujiinternet.html">Uji Internet</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="member.html">Member</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link me-4" href="faq.html">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn btn-primary lr text-white px-4" href="login.html">Login</a>
+          </li>
+          <!-- <li class="nav-item">
+            <a class="nav-link btn btn-primary lr text-white ps-3 pe-3" href="login.html">Scan QR</a>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div id="carouselMaterialStyle" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1" style="opacity: 0;"></button>
+      <button type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide-to="1" aria-label="Slide 2"
+        style="opacity: 0;"></button>
+      <button type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide-to="2" aria-label="Slide 3"
+        style="opacity: 0;"></button>
+    </div>
+    <div class="carousel-inner shadow-4-strong">
+      <div class="carousel-item active">
+        <img src="img/carousel/1.jpg" class="d-block carousel_size" alt="Sunset Over the City" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/carousel/2.jpg" class="d-block carousel_size" alt="Canyon at Nigh" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="img/carousel/3.jpg" class="d-block carousel_size" alt="Cliff Above a Stormy Sea" />
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide="prev">
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselMaterialStyle" data-bs-slide="next">
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <div class="container mt-3">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <img src="img/iklan/iklan1.gif" class="w-100" alt="">
+        <img src="img/iklan/iklan2.gif" class="w-100 mt-2" alt="">
+        <img src="img/iklan/iklan3.gif" class="w-100 mt-2" alt="">
+      </div>
+      <div class="col-lg-6">
+        <img src="img/iklan/iklan4.gif" class="w-100" alt="">
+        <img src="img/iklan/iklan5.gif" class="w-100 mt-2" alt="">
+        <img src="img/iklan/iklan6.gif" class="w-100 mt-2" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="mt-4">
+    <h1 class="font-medium text-md md:text-3xl text-center">Program Wisausaha dan Kemandirian</h1>
+    <p class="text-center text-sm md:text-xl">Hotspot Area SMKN 3 Kendal</p>
+    <img src="img/asset/index1.png" class="mw-100 image_cs mb-2 img-fluid mx-auto d-block" alt="">
+  </div>
+
+
+  <div style="background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);" class="mt-4">
+    <div class="container pb-5">
+      <div class="row justify-content-center text-center">
+
+        <div class="col-lg-4 mt-5">
+          <i class="fa-solid fa-wifi text-white mb-3" style="font-size: 100px;"></i>
+          <h2 class="fw-normal text-white">Uji Internet</h2>
+          <p class="text-white">Dalam hitungan detik, uji kecepatan Internet yang sederhana akan memperkirakan
+            kecepatanmu.
+          </p>
+          <p><a class="btn btn-primary-custom" href="ujiinternet.html">View details »</a></p>
+        </div>
+
+        <div class="col-lg-4 mt-5">
+          <i class="fa-solid fa-ticket text-white mb-3" style="font-size: 100px;"></i>
+          <h2 class="fw-normal text-white">Voucher</h2>
+          <p class="text-white">Untuk melihat ataupun membeli voucher-voucher Internet yang di sediakan oleh SMKN 3
+            Kendal.</p>
+          <p><a class="btn btn-primary-custom" href="voucher.html">View details »</a></p>
+        </div>
+
+        <div class="col-lg-4 mt-5">
+          <i class="fa-solid fa-users text-white mb-3" style="font-size: 100px;"></i>
+          <h2 class="fw-normal text-white">Member</h2>
+          <p class="text-white">And lastly this, the third column of representative placeholder content.</p>
+          <p><a class="btn btn-primary-custom" href="member.html">View details »</a></p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- ADS ADS ADS -->
+  <div class="container mt-3">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <img src="img/iklan/iklan1.gif" class="w-100" alt="">
+        <img src="img/iklan/iklan2.gif" class="w-100 mt-2" alt="">
+        <img src="img/iklan/iklan3.gif" class="w-100 mt-2" alt="">
+      </div>
+      <div class="col-lg-6">
+        <img src="img/iklan/iklan4.gif" class="w-100" alt="">
+        <img src="img/iklan/iklan5.gif" class="w-100 mt-2" alt="">
+        <img src="img/iklan/iklan6.gif" class="w-100 mt-2" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- ADS ADS ADS -->
+
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <h5 class="custom_mt_1">Customer Care</h5>
+        <p class="m-0 ms-1"><i class="fa-solid fa-phone me-1"></i> Untuk Pasang Baru Dan Teknis Hubungi 0852-2555-4421
+        </p>
+        <p class="m-0 ms-1"> <i class="fa-brands fa-whatsapp me-1"> </i> Atau Bisa Hubungi WhatsApp Berikut Ini
+          0852-2555-4421</p>
+        <h5 class=" mt-4">Internet Rakyat</h5>
+        <li class="m-0 ms-1">Kini SMKN 3 Kendal Hadir Dengan Internet Rakyat </li>
+        <li class="m-0 ms-1">Dengan Juga Dengan Internet Tanpa Batas Kouta</li>
+        <h5 class=" mt-4">Info dan Tips Rakyat</h5>
+        <li class="m-0 ms-1">Info! Pilih Sinyal Terbaik Dari Lokasi Anda Berada</li>
+        <li class="m-0 ms-1">Tips! Simpan Voucher Hingga Masa Aktif Berakhir </li>
+        <p class="mt-4">Manfaatkan Kebaikan dari Perkembangan Internet Untuk Putra Dan Putri Anda, Bukan Menghindarinya.
+          Berikan Layanan Internet Untuk Putra Dan Putri Anda Dirumah Supaya Mendapatkan Imformasi Yang Baik Pula Dari
+          Manfaat Internet Itu Sendiri.</p>
+      </div>
+      <div class="col-lg-6">
+        <img src="img/asset/index2.png" class="img-fluid custom_img_2 mx-auto d-block" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="p-4"></div>
+  <footer class="footer text-white text-center p-3 mt-auto" style="background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);">Copyright 2023 @ Ervareza Naurian
+  </footer>
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
